@@ -74,6 +74,38 @@ window.onscroll=function () {
             console.log(left[i]);
         }
     }
+
+    for (let i = 0; i < 4; i++) {
+        if (document.documentElement.scrollTop>2300) {
+            imgz[i].src=imgsrc;
+        }
+    }
+    for (let i = 4; i < 12; i++) {
+        if (document.documentElement.scrollTop>3300) {
+            imgz[i].src=imgsrc;
+        }
+    }
+    for (let i = 12; i < 20; i++) {
+        if (document.documentElement.scrollTop>4000) {
+            imgz[i].src=imgsrc;
+        }
+    }
+    for (let i = 20; i < 28; i++) {
+        if (document.documentElement.scrollTop>4000) {
+            imgz[i].src=imgsrc;
+        }
+    }
+    for (let i = 28; i < 36; i++) {
+        if (document.documentElement.scrollTop>4600) {
+            imgz[i].src=imgsrc;
+        }
+    }
+    for (let i = 36; i < imgz.length; i++) {
+        if (document.documentElement.scrollTop>6000) {
+            imgz[i].src=imgsrc;
+        }
+    }
+
 }
 
 var arr= [0,1800,2500,3300,4000,4600,5341,5341,6041];
@@ -86,37 +118,8 @@ for (let i = 0; i < left.length; i++) {
 
 var imgz = document.querySelectorAll(".nte2 img");
 console.log(imgz);
-var imgsrc ="./img/美女.png";
-for (let i = 0; i < 4; i++) {
-    if (document.documentElement.scrollTop>2800) {
-        imgz[i].src=imgsrc;
-    }
-}
-for (let i = 4; i < 12; i++) {
-    if (document.documentElement.scrollTop>3300) {
-        imgz[i].src=imgsrc;
-    }
-}
-for (let i = 12; i < 20; i++) {
-    if (document.documentElement.scrollTop>4000) {
-        imgz[i].src=imgsrc;
-    }
-}
-for (let i = 20; i < 28; i++) {
-    if (document.documentElement.scrollTop>4000) {
-        imgz[i].src=imgsrc;
-    }
-}
-for (let i = 28; i < 36; i++) {
-    if (document.documentElement.scrollTop>4600) {
-        imgz[i].src=imgsrc;
-    }
-}
-for (let i = 36; i < imgz.length; i++) {
-    if (document.documentElement.scrollTop>6000) {
-        imgz[i].src=imgsrc;
-    }
-}
+var imgsrc ="./img/包包.jpg";
+
 
 
 // 4
