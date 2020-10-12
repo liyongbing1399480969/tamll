@@ -1,44 +1,87 @@
 .logifo em,a{
     font-size: 12px;
 }
-.logifo a{
-    margin: 0 12px;
-}
 .logifo{
     height: 32px;
     line-height: 32px;
     position: relative;
     overflow: visible;
 }
-.logifo ul{
+.logifo .ull {
     position: absolute;
     right: 0;
     top: 0;
 }
-.logifo ul li{
+.logifo .ull  .lii{
     float: left;
     margin: 0 10px;
+    cursor: pointer;
 }
-.logifo ul li div{
+.logifo .ull .lii div{
     font-size: 12px;    
 }
-.logifo ul li .yz{
+.logifo .ull  .lii .yz{
     position: relative;
     bottom: 0;
-    right: 0;
+    right: 5.8px;
     background: #fff;
     z-index: 99;
 }
-
-.logifo ul li .y{
-    width: 65px;
+.logifo .ull  .lii .y{
+    padding: 0 5px;
+    box-sizing: border-box;
+    width: 72px;
+    text-align: center;
     font-size: 12px;
     color: #999;
 }
-.logifo ul li .y:hover .yz{
-    display: block;
+
+.logifo .ull .lii .y h4{
+    font-size: 12px;
+    float: right;
 }
-.logifo ul li .yz{
+.logifo .ull  .lii .y  i{
+    font-size: 12px;
+}
+.logifo .ull  .lii:hover h4{
+    transform: rotateX(180deg);
+    transition: 1s; 
+}
+.logifo .ull  .lii:hover .ull  .lii a{  
+    color: red;
+    text-decoration: underline;
+    
+}
+.logifo .ull  .lii .y .yz .row ul {
+    float: left;
+    margin-right: 40px;
+}
+.logifo .ull  .lii .y .yz .row ul li{
+    font-size: 12px;
+    margin: 12px 0;
+}
+
+.logifo .ull  .lii .y .yz .row ul li:hover a{
+    color: red;
+    text-decoration: underline;
+}
+
+.logifo .ull  .lii .y .yz .row{
+    overflow: hidden;
+    float: left;
+}
+
+.logifo .ull  .lii .y:hover .yz{
+    display: block;    
+}
+.logifo .ull  .lii .y:hover{
+    background-color: white;
+}
+ .logifo .ull .lii div span:hover{
+    color: red;
+    text-decoration: underline;
+ }
+.logifo .ull  .lii .yz{
     background: #fff;
     border: solid #eee;
     border-width: 0 1px 1px;
@@ -48,9 +91,31 @@
     padding: 8px 10px;
     box-sizing: border-box;
 }
-.logifo ul li .yz3{
-    width: 186px;
+.logifo .ull .lii .yz5{
+    width: 136px;
+    text-align: left;
+    right: 67.8px;
 }
+.logifo .ull .lii .yz5 div span{
+    margin-right: 8px;
+    font-size: 12px;
+}
+
+
+.logifo .ull .lii .yz3{
+    width: 186px;
+    right: 58.8px;
+}
+.logifo .ull .lii .yz6{
+    width: 1200px;
+    text-align: left;
+    right: 1132px;
+    line-height: 1.4;
+    border: solid #eee 1px;
+    padding: 25px ;
+    box-sizing: border-box;
+}
+
 .input form{
     width: 641.8px;
     margin: 42px 0px 40px 272px;
@@ -114,10 +179,13 @@
     height: 611px;
 }
 .lunbo .wiper-container{
-    height: 611px;
+    position: relative;
+    height: 608px;
 }
 .swiper-container .swiper-wrapper{
-    position: relative;
+    position: absolute;
+    height:608px;
+    width:100%;
 }
 .swiper-container .swiper-wrapper .swiper-slide{
     width: 100%;
@@ -125,7 +193,6 @@
     top: 0;
     left: 0;
     transition:opacity 1s  ;
-    
 }
 .swiper-container .swiper-wrapper .swiper-slide .ktow{
     position: absolute;
@@ -147,7 +214,7 @@
     position: absolute;
     top: 560px;
     left: 45%;
-    z-index: 101;
+    z-index: 3;
 }
 .swiper-container .swiper-wrapper .lbd div{
     background: #000;
@@ -196,7 +263,7 @@
 .lunbo .list .left ul li .disply{
     position: absolute;
     height: 600px;
-    width: 852px;
+    width: 738px;
     left: 200px;
     top: 0px;
     background-color: #fff;
@@ -205,67 +272,52 @@
     display: none;
 }
 .lunbo .list .left ul li .dis1{
-    top: -38.4px;
+    top: -37px;
 
 }
 .lunbo .list .left ul li .dis2{
-    top: -75.8px;
+    top: -74.4px;
 
 }
 .lunbo .list .left ul li .dis3{
-    top: -114.2px;
-
+    top: -111.6px;
 }
 .lunbo .list .left ul li .dis4  {
-    top: -145.6px;
-    
-
+    top: -148.8px;
 }
 .lunbo .list .left ul li .dis5{
-    top: -185px;
+    top: -186px;
 
 }
 .lunbo .list .left ul li .dis6{
-    top: -225.4px;
-
+    top: -223.2px;
 }
 .lunbo .list .left ul li .dis7{
-    top: -262.8px;
-
+    top: -260.4px;
 }
 .lunbo .list .left ul li .dis8{
-
-    top: -298.2px;
-
-
+    top: -297.6px;
 }
 .lunbo .list .left ul li .dis9{
-    top: -334.6px;
-
+    top: -334.8px;
 }
 .lunbo .list .left ul li .dis10{
     top: -372px;
-
 }
 .lunbo .list .left ul li .dis11{
-    top: -409.4px;
-
+    top: -409.22px;
 }
 .lunbo .list .left ul li .dis12{
-    top:  -446.8px;;
-
+    top:  -446.4px;;
 }
 .lunbo .list .left ul li .dis13{
-    top: -484px;
-
+    top: -483.6px;
 }
 .lunbo .list .left ul li .dis14{
-    top:  -521px;;
-
+    top:  -520.8px;
 }
 .lunbo .list .left ul li .dis15{
     top: -558px;
-
 }
 
 .lunbo .list .left ul li .disply .row{
@@ -338,6 +390,7 @@
     justify-content: space-between;
 }
 .coupon .row .log{
+    position: relative;
     width: 10%;
     height: 90px;
     background-color: white;
@@ -346,6 +399,40 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.coupon .row .log .msgg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+    text-align: center;
+    padding: 24px 2px;
+    box-sizing: border-box;
+    display: none;
+}
+.coupon .row .log:hover .msgg{
+    display: block;
+    transition: 1s;
+}
+.coupon .row .log .msgg p {
+    font-size: 12px;
+    color: white;
+    overflow: hidden;
+	display: inline-block; 
+	white-space: nowrap;
+	width: 140px; 
+    text-overflow:ellipsis;    
+}
+.coupon .row .log .msgg button{
+    color: #fff;
+    width: 63px;
+    height: 18px;
+    font-size: 12px;
+    line-height: 15px;
+    background-color: #FF0036;
+    border-radius: 9px;
 }
 .fp-content .heard{
     height: 655px;
@@ -600,7 +687,7 @@
     
 }
 .big-banner .row .nte2{
-    width: 205px;
+    width: 230px;
     height: 300px;
     padding: 10px ;
     box-sizing: border-box ;
@@ -697,7 +784,7 @@
     margin-bottom: 19px;
 }
 .rcon .row .nte2{
-    width: 205px;
+    width: 230px;
     height: 300px;
     padding: 10px ;
     box-sizing: border-box ;
@@ -753,7 +840,7 @@
     margin-bottom: 19px;
 }
 .xhd  .row .nte2{
-    width: 205px;
+    width: 230px;
     height: 300px;
     padding: 10px ;
     box-sizing: border-box ;
